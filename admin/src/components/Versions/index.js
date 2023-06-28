@@ -87,7 +87,7 @@ const Versions = () => {
         return;
       }
 
-      const selectedVersion = data.find((v) => v.versionNumber === value);
+      const selectedVersion = data.find((v) => v.versionNumber == value);
 
       push({
         search: location.search,
